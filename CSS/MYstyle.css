@@ -1,0 +1,52 @@
+@charset "utf-8";
+<style type="text/css">
+ body {
+	font-family: "宋体";
+}
+a:link {
+	font-family: "宋体";
+	color: #F36;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "宋体";
+	color: #FFF;
+	background-color: #F9C;
+	text-decoration: none;
+}
+a:hover {
+	color: #CCC;
+	background-color: #F99;
+	text-decoration: none;
+}
+a:active {
+	font-family: "宋体";
+	color: #F9C;
+	text-decoration: none;
+}
+.pic{
+	height: 230px;
+	width: 200px;
+}
+.note {
+	font-family: "黑体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+}
+h2 {
+	font-size: 18px;
+	color: #666;
+}
+.clr {
+	clear: left;
+}
+
+ </style>/* CSS Document */
+
+.trcolor {
+	background-color: #FFC;
+}
+tr:hover {
+	background-color: #FC0;
+}

@@ -1,0 +1,129 @@
+@charset "utf-8";
+#myotherwork{
+	background-color: #FFF;
+	right: 0px;
+	bottom: 0px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	border-top-style: solid;
+	border-top-color: #666666;
+}
+
+#container {
+	height:800px;
+}
+#leftpart {
+	float:left;
+	background-color: #FFF;
+	width: 400px;
+	height: 100%;
+}
+
+#mainpart {
+	padding-top: 20px;
+	overflow: hidden;
+	background-color: #AAA;
+	height: 100%;
+	text-align: center;
+}
+#rightpart {
+	float:right;
+	background-color: #FFF;
+	width: 400px;
+	height: 100%;
+}
+#pic {
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+#info {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+#contact {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+#interest {
+	width: 300px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+}
+#education {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+#work {
+	width: 300px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+#tags {
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+}
+#myphotogallery{
+	background:#FFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#myshow{
+	background:#FFF;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+body {
+	background-color: #CCC;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:110px;
+}
+
+
+#mywork{
+	background-color: #FFF;
+	right: 0px;
+	bottom: 0px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+#emailme {
+	background-color: #dfe463;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	padding: 10px;
+}
+#footer {
+	background-color: #db4865;
+	height: 10px;
+	width: 100%;
+	clear: left;
+}
+/* CSS Document */

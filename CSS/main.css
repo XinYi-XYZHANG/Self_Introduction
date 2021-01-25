@@ -1,0 +1,107 @@
+@charset "utf-8";
+body {
+	font-family: "宋体";
+	background-color: #CCC;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 80px;
+}
+
+#main {
+	height: 780px;
+	width: 100%;
+}
+#leftpart {
+	background-color: #CCCCCC;
+	float: left;
+	height: 100%;
+	width: 320px;
+	float:left;
+}
+#myphoto {
+	height: 290px;
+	width: 100%;
+	margin-bottom: 15px;
+	background-color: #F00;
+	text-align: center;
+	padding-top: 10px;
+}
+#myinfo {
+	background-color: #dedede;
+	height: 200px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#mycontact {
+	background-color: #00F;
+	height: 120px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#myspeciality {
+	background-color: #FF0;
+	height: 115px;
+	width: 100%;
+	margin-top: 15px;
+}
+#rightpart {
+	background-color: #FC6;
+	height: 100%;
+	margin-left: 30px;
+	overflow:hidden;
+}
+#mystudy {
+	background-color: #0FF;
+	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#mywork {
+	background-color: #C33;
+	height: 200px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#mytags {
+	background-color: #6F6;
+	height: 200px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+#footer {
+	background-color: #F00;
+	height: 20px;
+	width: 100%;
+}
+
+
+#container {
+	background-color: #FFF;
+	height: 800px;
+	width: 100%;
+	position:relative;
+
+}
+#emailme{
+	height: 100px;
+	width: 400px;
+	background-color: #FF0000;
+	position: fixed;
+	right:0px;
+	bottom:0px;
+	padding:30px;
+}

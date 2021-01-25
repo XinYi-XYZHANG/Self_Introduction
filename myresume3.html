@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<title>张心怡的个人简历</title>
+
+<link href="css/main2.css" rel="stylesheet" type="text/css" />
+<link href="CSS/my.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/swiper.min.js"></script>
+
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<script>
+  function showmsg(){
+	  var element;
+  element=document.getElementById("msg");						 element.innerHTML=document.getElementById("name").value+"，谢谢您的留言，我会尽快与您取得联系";
+  }
+</script>
+<script>
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: true,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+  } );
+  </script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+</script>
+<script>
+  $( function() {
+    $( "#accordion" )
+      .accordion({
+        header: "> div > h3"
+      })
+      .sortable({
+        axis: "y",
+        handle: "h3",
+        stop: function( event, ui ) {
+          // IE doesn't register the blur when sorting
+          // so trigger focusout handlers to remove .ui-state-focus
+          ui.item.children( "h3" ).triggerHandler( "focusout" );
+ 
+          // Refresh accordion to handle new order
+          $( this ).accordion( "refresh" );
+        }
+      });
+  } );
+  </script>
+  <script>
+    $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
+  <script>
+   $( function() {
+    $( document ).Swiper();
+  } );
+  </script>
+</head>
+
+<body>
+<div id="dialog" title="张心怡的小助手">
+  <p>谢谢您点开我的简历！期待您与我联系，有任何想法可以留言噢！</p>
+</div>
+<div id="myotherwork">
+<div id="myshow">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="https://82yqeb.axshare.com" target="_blank" class="image">
+<img src="images/10.PNG" alt="" class="reflection" />
+</a></div>
+        <div class="swiper-slide"><a href="images/华东师大闵行.jpg" target="_blank" class="image">
+<img src="images/华东师大闵行.jpg" alt="" class="reflection" />
+</a></div>
+<div class="swiper-slide"><a href="document/概念转变壁报.pdf" target="new" class="image">
+<img src="images/12.PNG" alt="" class="reflection" />
+</a></div>
+
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+</div>
+</div>
+</div>
+<div id="container">
+<div id="leftpart">
+<div id="education">
+<pre>个人教育经历</pre>
+<div id="accordion">
+  <div class="group">
+    <h3>小学：重庆市渝北区金港国际实验小学</h3>
+    <div>
+      <p>于2006-2012年就读于重庆市渝北区金港国际实验小学，曾担任中队长，加入学校合唱团、舞蹈队、健美操队。曾获优秀毕业生。</p>
+    </div>
+  </div>
+  <div class="group">
+    <h3>初中：重庆市渝北中学校</h3>
+    <div>
+      <p>于2012-2015年就读于重庆市渝北中学校，曾担任班长和纪律委员。</p>
+    </div>
+  </div>
+ <div class="group">
+    <h3>高中：重庆市南开中学校</h3>
+    <div>
+      <p>于2015-2018年就读于重庆市南开中学校，曾担任团支书。</p>
+    </div>
+  </div>
+     <div class="group">
+    <h3>本科：华东师范大学</h3>
+    <div>
+      <p>于2018-至今就读于华东师范大学教育技术学系。2019年获优秀学生特等奖学金。</p>
+    </div>
+  </div>
+</div>
+
+
+</div>
+<div id="contact">
+<pre>联系方式</pre>
+<ul>
+  <li class="contactinfo">手机：18019062145</li>
+  <li class="contactinfo">email：<a href="mailto:903498229@qq.com"> 903498229@qq.com</a></li>
+  <li class="contactinfo">地址:上海市普陀区中山北路3663号华东师范大学</li>
+</ul>
+</div>
+<div id="tags">
+<pre>自我评价</pre>
+<div id="mytag">
+<ul>
+  <li>上进心</li>
+  <li >自带笑点</li>
+  <li>排球</li>
+  <li>嗜辣如命</li>
+</ul>
+</div>
+
+<div id="mytag2">
+<ul>
+  <li>有激情</li>
+ 
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="rightpart">
+<div id="work">
+<pre>个人工作经历</pre>
+<table width="100%" height="159" border="2">
+  <tr >
+    <td>华东师范大学校学生会新媒体中心</td>
+
+  </tr>
+  <tr>
+    <td>参与人工智能教育项目</td>
+  </tr>
+  <tr>
+    <td>2022北京冬奥会志愿者</td>
+  </tr>
+</table>
+</div>
+<div id="interest">
+<pre>个人特长</pre>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">排球</a></li>
+    <li><a href="#tabs-2">多语言</a></li>
+    <li><a href="#tabs-3">办公能力</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>从高三开始打排球，大二时所在的教育学部排球女队获得中北校区冠军。</p>
+  </div>
+  <div id="tabs-2">
+    <p>高考英语147分，获雅思7分、BEC中级证书、高级口译证书。会基础日语和法语。</p>
+  </div>
+   <div id="tabs-3">
+    <p>熟练使用pr、ps、Axure、word、powerpoint等软件。</p>
+  </div>
+</div>
+</div>
+</div>
+<div id="mainpart">
+<div id="pic">
+<p><img src="images/zxy02.jpg" width="1080" height="1584" class="pic" /></p>
+</div>
+<div id="info">
+<h2>张心怡</h2>
+<h3>基本信息</h3>
+<p>性别：女</p>
+<p>出生年月：1999年12月</p>
+<p>政治面貌：共青团员</p>
+<p>学历：本科</p>
+<p>毕业院校：<a href="http://www.ecnu.edu.cn" target="_blank">华东师范大学</a></p>
+<p>毕业专业：教育技术学<br />
+</p>
+</div>
+
+
+</div>
+</div>
+
+</div>
+<div id="mywork">
+<div id="myphotogallery">
+<div class="gallery-section">
+<h2>我的摄影集</h2>
+<div class="border">
+<table>
+<tr width="800">
+<td width="150" height="154"><a href="images/崇明植物园.jpg" target="_blank" class="image">
+<img src="images/崇明植物园.jpg" alt="" />
+</a></td>
+<td width="150" height="154"><a href="images/都江堰鱼嘴.jpg" target="_blank" class="image">
+<img src="images/都江堰鱼嘴.jpg" alt="" />
+</a></td>
+<td width="150" height="154"><a href="images/海南海边.jpg" target="_blank" class="image">
+<img src="images/海南海边.jpg" alt="" />
+</a></td>
+<td width="150" height="154"><a href="images/华东师大中北.jpg" target="_blank" class="image">
+<img src="images/华东师大中北.jpg" alt="" />
+</a></td>
+<td width="150" height="154"><a href="images/静.jpg" target="_blank" class="image">
+<img src="images/静.jpg" alt="" />
+</a></td>
+<td width="150" height="150"><a href="images/南京夫子庙.jpg" target="_blank" class="image">
+<img src="images/南京夫子庙.jpg" alt="" />
+</a></td>
+<td width="150" height="150"><a href="images/夜.jpg" target="_blank" class="image">
+<img src="images/夜.jpg" alt="" />
+</a></td>
+<td width="150" height="150"><a href="images/一隅.jpg" target="_blank" class="image">
+<img src="images/一隅.jpg" alt="" />
+</a></td>
+<td width="150" height="150"><a href="images/重庆洪崖洞.jpg" target="_blank" class="image">
+<img src="images/重庆洪崖洞.jpg" alt="" />
+</a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div id="footer"></div>
+<div id="emailme">
+<h3>给我留言</h3>
+
+<p>
+  <input id="name" title="请留下您的姓名" />
+</p>
+
+  <input name="textfield" type="text" id="username" size="50" />
+  <input type="submit" name="button" id="button" value="提交" / onclick="showmsg()">
+   <p><span id="msg"></span></p>
+</div>
+</div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
